@@ -12,6 +12,6 @@ script:
   - cassandra-cli -host localhost -port 9160 -f removeKeyspace.txt
 notifications:
   email: 
-       - vidyac.raghav@gmail.com
-       - vidya@shippable.com
+       - vidya_test1@yahoo.com
+       - vidyatest13@gmail.com
       
