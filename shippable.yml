@@ -12,7 +12,7 @@ install:
 script:
   - cassandra-cli -host localhost -port 9160 -f schema.txt
   - ruby sample.rb
- # - cassandra-cli -host localhost -port 9160 -f removeKeyspace.txt
+  - cassandra-cli -host localhost -port 9160 -f removeKeyspace.txt
 notifications:
   email: 
       recipients:
