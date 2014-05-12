@@ -19,4 +19,4 @@ notifications:
           - vidyac.raghav@gmail.com
           - vidya@shippable.com
       on_success: always
-      on_failure: change
+      on_failure: always
