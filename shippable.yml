@@ -1,10 +1,8 @@
 language: ruby
-rvm:
-  - 1.9.1
+
 
 services:
   - cassandra
-
 
 install:
   - gem install cassandra
